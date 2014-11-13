@@ -32,6 +32,7 @@
             this.controlDePermisosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.controlDePagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +56,8 @@
             // 
             // controlDePagosToolStripMenuItem
             // 
+            this.controlDePagosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.modificarToolStripMenuItem});
             this.controlDePagosToolStripMenuItem.Name = "controlDePagosToolStripMenuItem";
             this.controlDePagosToolStripMenuItem.Size = new System.Drawing.Size(137, 20);
             this.controlDePagosToolStripMenuItem.Text = "Control de Vacaciones";
@@ -65,6 +68,13 @@
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
             this.consultasToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.consultasToolStripMenuItem.Text = "Consultas";
+            // 
+            // modificarToolStripMenuItem
+            // 
+            this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.modificarToolStripMenuItem.Text = "Modificar";
+            this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
             // 
             // MDI
             // 
@@ -90,6 +100,7 @@
         private System.Windows.Forms.ToolStripMenuItem controlDePermisosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem controlDePagosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
     }
 }
 

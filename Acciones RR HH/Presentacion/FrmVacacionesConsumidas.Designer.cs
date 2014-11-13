@@ -144,6 +144,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FrmVacacionesConsumidas";
             this.Text = "Registro de Vacaciones Consumidas";
+            this.Load += new System.EventHandler(this.FrmVacacionesConsumidas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

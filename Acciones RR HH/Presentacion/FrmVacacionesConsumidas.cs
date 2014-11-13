@@ -18,6 +18,11 @@ namespace Acciones_RR_HH.Presentacion
 
         private void label1_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void FrmVacacionesConsumidas_Load(object sender, EventArgs e)
+        {
 
         }
     }
